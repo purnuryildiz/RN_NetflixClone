@@ -8,7 +8,7 @@ Client.defaults.params = {
   language: 'en-US',
 };
 
-Client.defaults.headers = {
+Client.defaults.headers.common = {
   accept: 'application/json',
   Authorization: `Bearer ${TOKEN}`,
 };

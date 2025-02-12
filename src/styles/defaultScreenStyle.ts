@@ -5,6 +5,8 @@ const defaultScreenStyle = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: Colors.BLACK,
+    paddingHorizontal: 15,
+    paddingTop: 75,
   },
 });
 
